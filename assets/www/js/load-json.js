@@ -34,7 +34,7 @@ $(document).ready(
 			// $.getJSON("file:///android_asset/www/js/example.json",
 
 			var jqxhr = $.getJSON(
-					'http://relcal2.cloudfoundry.com/release/calendar/day/'
+					'http://relcal2.cloudfoundry.com/release/calendar/GIDRelease/'
 							+ todayStr,
 					function(data) {
 						output.append('<p class="threeD">Today is<br>D'
